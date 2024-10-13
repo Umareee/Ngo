@@ -61,7 +61,7 @@ const CausesCarousel = () => {
       <div className="container">
         <div className="section-header text-center">
           <p>Popular Programs</p>
-          <h2>Let's know about our programs around the world</h2>
+          <h2>Lets know about our programs around the world</h2>
         </div>
         <Slider {...settings}>
           {causes.length > 0 ? (
