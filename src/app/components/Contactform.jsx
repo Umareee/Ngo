@@ -1,44 +1,70 @@
-"use client"
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
 const Contactform = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const [formErrors, setFormErrors] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
+
+  const [submitMessage, setSubmitMessage] = useState("");
 
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
-    setFormErrors({ ...formErrors, [id]: '' }); // Clear error when user starts typing
+    setFormErrors({ ...formErrors, [id]: "" }); // Clear error when user starts typing
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Basic validation
     const errors = {};
-    if (!formData.name) errors.name = 'Please enter your name';
-    if (!formData.email) errors.email = 'Please enter your email';
-    if (!formData.subject) errors.subject = 'Please enter a subject';
-    if (!formData.message) errors.message = 'Please enter your message';
+    if (!formData.name) errors.name = "Please enter your name";
+    if (!formData.email) errors.email = "Please enter your email";
+    if (!formData.subject) errors.subject = "Please enter a subject";
+    if (!formData.message) errors.message = "Please enter your message";
 
     if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
       return;
     }
 
-    // Handle form submission logic (e.g., send to API)
-    alert('Form submitted!');
+    // Send form data to API
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setSubmitMessage("Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        setSubmitMessage("There was an error sending your message. Please try again.");
+      }
+    } catch (error) {
+      setSubmitMessage("There was an error sending your message. Please try again.");
+    }
   };
 
   return (
@@ -47,9 +73,6 @@ const Contactform = () => {
         <div className="section-header text-center">
           <p>Get In Touch</p>
           <h2>Contact for any query</h2>
-        </div>
-        <div className="contact-img">
-          <img src="/images/contact.jpg" alt="Contact Image" />
         </div>
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleSubmit}>
@@ -106,6 +129,7 @@ const Contactform = () => {
               </button>
             </div>
           </form>
+          {submitMessage && <p>{submitMessage}</p>}
         </div>
       </div>
     </div>
