@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Event 1",
+      "date": "2024-01-01",
+      "time": "8:00 - 10:00",
+      "type": "Charity",
+      "description": "Lorem ipsum dolor sit amet elit.",
+      "registrationLink":""
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "date": "2023-12-25",
+      "time": "12:00 - 15:00",
+      "type": "Fundraiser",
+      "description": "Lorem ipsum dolor sit amet elit.",
+      "registrationLink":""
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "date": "2024-01-28",
+      "time": "8:00 - 10:00",
+      "type": "Charity",
+      "description": "Lorem ipsum dolor sit amet elit.",
+      "registrationLink":""
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "date": "2023-12-30",
+      "time": "12:00 - 15:00",
+      "type": "Fundraiser",
+      "description": "Lorem ipsum dolor sit amet elit.",
+      "registrationLink":""
+    }
+  ]
+  

@@ -1,15 +1,29 @@
-import localFont from "next/font/local";
+import 'bootstrap/dist/css/bootstrap.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false; 
+
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+import BootstrapClient from './components/BootstrapClient';
+
+import Navbar from "./components/Navbar";
+import Topbar from './components/Topbar';
+import Footer from './components/Footer';
+import BackToTop from './components/Backtotop';
+
+import { Quicksand } from 'next/font/google';
+import Contactform from './components/Contactform';
+import Marquee from './components/SuccessMarquee';
+import FAQ from './components/FAQ';
+import TestimonialCarousel from './components/Testinomial';
+import Facts from './components/Facts';
+
+const quicksand = Quicksand({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'], // Specify the weights you need
+  display: 'swap',
 });
 
 export const metadata = {
@@ -20,8 +34,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={quicksand.className}>
+        <Topbar/>
+      <Navbar/>
         {children}
+       
+        <BootstrapClient />
+        <Footer/>
+        <BackToTop/>
       </body>
     </html>
   );
