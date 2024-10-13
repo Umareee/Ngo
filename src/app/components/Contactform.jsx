@@ -73,6 +73,9 @@ const Contactform = () => {
           <p>Get In Touch</p>
           <h2>Contact for any query</h2>
         </div>
+        <div className="contact-img">
+          <img src="/images/contact.jpg" alt="Contact Image" />
+        </div>
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleSubmit}>
             <div className="control-group">
