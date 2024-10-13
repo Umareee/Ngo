@@ -30,7 +30,7 @@ const DonateCard = () => {
               <div className="donate-content">
                 <div className="section-header">
                   <p>Donate Now</p>
-                  <h2>Let's donate for better lives</h2>
+                  <h2>Lets donate for better lives</h2>
                 </div>
                 <div className="donate-text">
                   <p>
