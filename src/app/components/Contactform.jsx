@@ -26,7 +26,6 @@ const Contactform = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-console.log('Form Data:', formData); // Log the form data being sent
     // Basic validation
     const errors = {};
     if (!formData.name) errors.name = "Please enter your name";
