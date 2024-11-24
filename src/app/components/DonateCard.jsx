@@ -6,7 +6,6 @@ import CausesData from '../programs/causes.json'; // Adjust the path according t
 const DonateCard = () => {
   const [donationAmount, setDonationAmount] = useState('');
   const [selectedCause, setSelectedCause] = useState('');
-  const [isMonthly, setIsMonthly] = useState(false); // State to track if the donation is monthly
 
   const handleInputChange = (e) => {
     setDonationAmount(e.target.value); // Update the custom donation state
@@ -16,17 +15,9 @@ const DonateCard = () => {
     setSelectedCause(e.target.value);
   };
 
-  const handleMonthlyChange = (e) => {
-    setIsMonthly(e.target.checked); // Toggle monthly donation option
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(
-      `Donating $${donationAmount} to ${selectedCause} ${
-        isMonthly ? 'every month' : 'one-time'
-      }`
-    );
+    console.log(`Donating $${donationAmount} to ${selectedCause}`);
   };
 
   return (
@@ -39,7 +30,7 @@ const DonateCard = () => {
               <div className="donate-content">
                 <div className="section-header">
                   <p>Donate Now</p>
-                  <h2>Let's donate for better lives</h2>
+                  <h2>Lets donate for better lives</h2>
                 </div>
                 <div className="donate-text">
                   <p>
@@ -68,7 +59,7 @@ const DonateCard = () => {
                     />
                   </div>
                   <div className="control-group mt-2">
-                    <select
+                  <select
                       className="form-control styled-select"
                       value={selectedCause}
                       onChange={handleCauseChange}
@@ -76,18 +67,17 @@ const DonateCard = () => {
                     >
                       <option value="">Select a Cause</option>
                       {CausesData.map((cause) => (
-                        <option key={cause.id} value={cause.title} style={{ color: 'black', cursor: 'pointer' }}>
+                        <option key={cause.id} value={cause.title} style={{color:"black" , cursor:"pointer"}}>
                           {cause.title}
+                          
                         </option>
                       ))}
-                      <option value="Other" style={{ color: 'black', cursor: 'pointer' }}>
-                        Other
-                      </option>
+                      <option value="Other" style={{color:"black" , cursor:"pointer"}}>Other</option> {/* Added "Other" option */}
                     </select>
                   </div>
-
-                  <div className="btn-group btn-group-toggle">
-                    {['10', '20', '50'].map((amount) => (
+                  
+                                   <div className="btn-group btn-group-toggle">
+                    {["10", "20", "50"].map((amount) => (
                       <label
                         key={amount}
                         className={`btn btn-custom ${donationAmount === amount ? 'active' : ''}`}
@@ -102,22 +92,8 @@ const DonateCard = () => {
                       </label>
                     ))}
                   </div>
-
-                  <div className="control-group mt-3">
-                    <label style={{color:"white" , cursor:"pointer"}}>
-                      <input
-                        type="checkbox"
-                        checked={isMonthly}
-                        onChange={handleMonthlyChange} // Handle monthly donation toggle
-                        style={{marginRight:"10px" , cursor:"pointer"}}
-                      />
-                      Make this a monthly donation
-                    </label>
-                  </div>
                   <div>
-                    <button className="btn btn-custom" type="submit">
-                      {isMonthly ? 'Donate Monthly' : 'Donate Now'}
-                    </button>
+                    <button className="btn btn-custom" type="submit">Donate Now</button>
                   </div>
                 </form>
               </div>

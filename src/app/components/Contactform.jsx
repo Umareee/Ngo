@@ -26,6 +26,7 @@ const Contactform = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     // Basic validation
     const errors = {};
     if (!formData.name) errors.name = "Please enter your name";
@@ -72,9 +73,6 @@ const Contactform = () => {
         <div className="section-header text-center">
           <p>Get In Touch</p>
           <h2>Contact for any query</h2>
-        </div>
-        <div className="contact-img">
-          <img src="/images/contact.jpg" alt="Contact Image" />
         </div>
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleSubmit}>
