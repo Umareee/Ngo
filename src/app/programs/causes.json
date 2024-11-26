@@ -3,107 +3,21 @@
     "image": "causes-1.jpg",
     "raised": 3000,
     "goal": 10000,
-    "title": "Establish a New Not-for-Profit Organization",
-    "description": "We recognize the importance of fostering social entrepreneurship and empowering changemakers. Our program guides and supports individuals interested in establishing their own not-for-profit organizations, providing them with the knowledge, resources, and mentorship needed to create a lasting impact."
+    "title": "Adopt-a-Family Program (AFP)",
+    "description": "Through the Adopt a Family Program, we identify underserved families facing financial hardships and provide comprehensive support. Initially, we meet their financial needs, covering essential costs like housing, healthcare, and food. Once their immediate needs are met, we work on their long-term independence by offering skill training and career resources."
   },
   {
     "image": "causes-2.jpg",
     "raised": 15000,
     "goal": 20000,
-    "title": "Community Engagement Program",
-    "description": "Our Community Engagement Program aims to bridge the gap between community members and organizations by fostering meaningful connections and collaborations. Through this program, we facilitate dialogue, organize community forums, and host events that encourage active participation and input from community members. By involving the community in decision-making processes and addressing their concerns, we create a sense of ownership and empowerment. The Community Engagement Program serves as a catalyst for positive change, strengthening community bonds and promoting a shared vision for a thriving and inclusive society."
+    "title": "Language and Literacy Program",
+    "description": "Language and literacy are the keys to accessing opportunities and improving quality of life. Our Language/Literacy Program offers foundational education to illiterate adults and children, while also addressing education gaps for school-age kids. By focusing on language development, we empower individuals to navigate the modern world confidently."
   },
   {
     "image": "causes-3.jpg",
     "raised": 40000,
     "goal": 50000,
-    "title": "Individual Empowerment Program",
-    "description": "Our Individual Empowerment Program focuses on providing personalized support and resources to individuals seeking personal and professional development. Through tailored mentorship, coaching sessions, and skills training, we empower individuals to unlock their potential, set and achieve goals, and overcome obstacles. This program is designed to enhance self-confidence, improve decision-making skills, and foster a sense of self-worth. By equipping individuals with the necessary tools and knowledge, we empower them to create positive change in their lives and become active agents of their own success."
-  },
-  {
-    "image": "causes-4.jpg",
-    "raised": 100000,
-    "goal": 50000,
-    "title": "Sewing Training Program for Women",
-    "description": "Empowering women through skill development, our Sewing Training Program equips participants with the knowledge and techniques needed for sewing and garment creation. By enhancing their skills, we empower women to generate income, gain economic independence, and create a path towards a brighter future."
-  },
-  {
-    "image": "causes-1.jpg",
-    "raised": 3000,
-    "goal": 10000,
-    "title": "English Language Program for School-Age Children",
-    "description": "We believe that language proficiency is essential for educational success and personal growth. Our English Language Program focuses on improving the language skills of school-age children, enabling them to communicate effectively and excel academically."
-  },
-  {
-    "image": "causes-3.jpg",
-    "raised": 40000,
-    "goal": 50000,
-    "title": "English Language Program for College/University Students",
-    "description": "For college and university students aspiring to study or work internationally, we offer an English Language Program specifically designed to prepare them for the International English Language Testing System (IELTS). This program enhances their language proficiency and helps them achieve their academic and career goals."
-  },
- 
-  {
-    "image": "causes-3.jpg",
-    "raised": 40000,
-    "goal": 50000,
-    "title": "Women Wellness Program",
-    "description": "Our Women Wellness Program addresses the unique needs of women by providing resources and support for their physical, mental, and emotional well-being. This program offers workshops, counseling services, and empowerment initiatives to help women build resilience, confidence, and overall wellness."
-  },
-  {
-    "image": "causes-4.jpg",
-    "raised": 100000,
-    "goal": 50000,
-    "title": "Seniors Wellness Program",
-    "description": "The Seniors Wellness Program aims to enhance the well-being and quality of life for elderly community members. Through health workshops, recreational events, and social gatherings, we promote physical and mental well-being while fostering a sense of belonging and community connection."
-  },
-  
-  {
-    "image": "causes-1.jpg",
-    "raised": 3000,
-    "goal": 10000,
-    "title": "Community Tiffin Service",
-    "description": "Our Community Tiffin Service addresses the nutritional needs of vulnerable community members, such as the elderly, low-income families, and individuals facing food insecurity. Through this program, we provide nutritious and affordable meals that are delivered directly to their doorstep. The Community Tiffin Service not only ensures access to healthy food but also promotes social interaction and a sense of community through the act of sharing meals."
-  },
-  {
-    "image": "causes-2.jpg",
-    "raised": 15000,
-    "goal": 20000,
-    "title": "Adopt a Family Program",
-    "description": "The Adopt a Family Program creates a support network for families facing challenging circumstances. Through this program, individuals or groups can provide vital resources, emotional support, and mentorship to families in need, fostering a sense of community and solidarity."
-  },
-  {
-    "image": "causes-2.jpg",
-    "raised": 15000,
-    "goal": 20000,
-    "title": "Youth Club Program",
-    "description": "Our Youth Club provides a safe and inclusive space for young individuals to engage in meaningful activities, develop leadership skills, and foster personal growth. Through workshops, mentoring programs, and community projects, we empower youth to explore their passions, build confidence, and become active contributors to society."
-  },
-  {
-    "image": "causes-4.jpg",
-    "raised": 100000,
-    "goal": 50000,
-    "title": "Financial Support Program",
-    "description": "Our Financial Support Program is designed to provide temporary assistance and resources to individuals and families facing financial hardships. Through this program, we aim to alleviate immediate financial burdens, promote financial literacy, and empower individuals to regain stability and self-sufficiency."
-  },
-  {
-    "image": "causes-1.jpg",
-    "raised": 3000,
-    "goal": 10000,
-    "title": "Internship Program for College/University Students",
-    "description": "Our Internship Program offers valuable opportunities for college and university students to gain real-world experience and apply their academic knowledge in a practical setting. Through partnerships with local businesses and organizations, we provide internships across various fields, allowing students to develop professional skills, expand their networks, and explore potential career paths."
-  },
-  {
-    "image": "causes-2.jpg",
-    "raised": 15000,
-    "goal": 20000,
-    "title": "Outdoor Excursion Program",
-    "description": "Our Outdoor Excursion Program is designed to provide individuals of all ages with opportunities to explore and connect with the natural world. We offer a range of outdoor activities, including weekly hiking excursions and yearly camping trips, promoting physical fitness, mental rejuvenation, and a deeper appreciation for nature."
-  },
-  {
-    "image": "causes-3.jpg",
-    "raised": 40000,
-    "goal": 50000,
-    "title": "Cooked Food Events",
-    "description": "Our Cooked Food Events bring communities together through the joy of shared meals and culinary experiences. These events celebrate the diverse cultures and cuisines within our community, fostering cultural appreciation and providing an opportunity for social connection."
+    "title": "Expanding Our Reach",
+    "description": "CLF will establish CRCs in new communities annually, amplifying our impact across diverse populations. Our roadmap highlights a clear plan for growth, continuous evaluation, and program development"
   }
 ]

@@ -40,9 +40,9 @@ const CausesCarousel = () => {
     ],
   };
 
-  const calculateProgress = (raised, goal) => {
-    return Math.min((raised / goal) * 100, 100);
-  };
+  // const calculateProgress = (raised, goal) => {
+  //   return Math.min((raised / goal) * 100, 100);
+  // };
 
   const toggleDescription = (index) => {
     setExpandedStates((prev) => ({
@@ -70,7 +70,7 @@ const CausesCarousel = () => {
                 <div className="causes-img">
                   <img src={`/images/${cause.image}`} alt={`Cause ${index + 1}`} />
                 </div>
-                <div className="causes-progress">
+                {/* <div className="causes-progress">
                   <div className="progress">
                     <div 
                       className="progress-bar" 
@@ -87,7 +87,7 @@ const CausesCarousel = () => {
                     <p><strong>Raised:</strong> ${cause.raised}</p>
                     <p><strong>Goal:</strong> ${cause.goal}</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="causes-text">
                   <h3 className={isLongTitle(cause.title) ? 'long-title' : ''}>{cause.title}</h3>
                   <p>

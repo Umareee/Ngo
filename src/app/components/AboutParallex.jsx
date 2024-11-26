@@ -38,13 +38,13 @@ const AboutParallex = () => {
 
               <div className="tab-content">
                 <div id="tab-content-1" className="container tab-pane active">
-                We are a non-profit dedicated to empowering individuals by fulfilling basic needs and providing skill-based education that helps them thrive independently.
+                Communilearn Foundation (CLF) is a non-profit organization dedicated to transforming lives by addressing poverty through education, skills training, and community-based development. We empower underserved individuals to overcome barriers, unlocking their full potential and building self-reliant communities.
                 </div>
                 <div id="tab-content-2" className="container tab-pane fade">
-                A world where every family has the skills and resources to build a secure future, and where education is accessible to all.
+                To empower communities to tackle local challenges, educate individuals, and elevate livelihoods through practical skills, entrepreneurship, and community-driven solutions.
                 </div>
                 <div id="tab-content-3" className="container tab-pane fade">
-                We started with a simple belief—that everyone deserves an opportunity to live with dignity and purpose. Our organization was founded to support underserved families through education and skills training.
+                To create a world where underprivileged communities are empowered and interconnected, fostering self-reliant neighborhoods that drive positive change and sustainable development.
                 </div>
               </div>
             </div>

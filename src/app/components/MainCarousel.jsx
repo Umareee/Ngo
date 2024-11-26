@@ -17,9 +17,9 @@ function MainCarousel() {
       </div>
       <Carousel.Caption className='carousel-caption'>
         <div className="carousel-text">
-          <h1>Empowering Lives through Skills Training</h1>
+          <h1>Empowering Communities, One Family at a Time</h1>
           <p>
-          Our mission is to uplift underserved communities through financial support, education, and skill-building. 
+          Join us in transforming lives through education, skills development, and community empowerment.
           </p>
           <div className="carousel-btn">
           <Link className="btn btn-custom" href="/volunteer">Get Involved</Link>
@@ -39,9 +39,9 @@ function MainCarousel() {
       </div>
       <Carousel.Caption>
         <div className="carousel-text">
-          <h1>Empowering Lives through Education</h1>
+          <h1>Empowering Communities, One Family at a Time</h1>
           <p>
-          Through our innovative programs, we aim to empower individuals to create sustainable futures for themselves and their families.
+          Join us in transforming lives through education, skills development, and community empowerment.
           </p>
           <div className="carousel-btn">
           <Link className="btn btn-custom" href="/volunteer">Get Involved</Link>

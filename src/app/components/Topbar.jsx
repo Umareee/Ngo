@@ -11,15 +11,13 @@ const Topbar = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="top-bar-left">
+                  
                   <div className="text">
-                    <p><FontAwesomeIcon icon={faPhoneAlt} style={{ color:'#FDBE33' }} /> +123 456 7890</p>
-                  </div>
-                  <div className="text">
-                    <p> <FontAwesomeIcon icon={faEnvelope} style={{ color:'#FDBE33' }} /> info@example.com</p>
+                    <p> <FontAwesomeIcon icon={faEnvelope} style={{ color:'#FDBE33' }} />info@communilearn.org</p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              {/* <div className="col-md-4">
                 <div className="top-bar-right">
                   <div className="social">
                     <a href="#">
@@ -36,7 +34,7 @@ const Topbar = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
